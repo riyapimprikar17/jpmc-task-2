@@ -52,10 +52,6 @@ class App extends Component<{}, IState> {
       clearInterval(interval);
     }
   },100);
-      // Update the state by creating a new array of data that consists of
-      // Previous data in the state and the new data from server
-      // this.setState({ data: [...this.state.data, ...serverResponds] });
-    // });
   }
   /**
    * Render the App react component
